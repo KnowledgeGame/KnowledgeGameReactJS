@@ -77,7 +77,7 @@ function Header() {
                                 <li key={course.nameCourse} className={cx('list-style-content')}>
                                     <Link
                                         className={cx('list-style-a')}
-                                        to={`/courses/${course.nameCourse}/${
+                                        to={`/KnowledgeGameReactJS/courses/${course.nameCourse}/${
                                             firstSubjectOfCourse[course.idCourse - 1]
                                         }`}
                                     >
@@ -93,7 +93,7 @@ function Header() {
                                                     >
                                                         <Link
                                                             className={cx('list-style-subject-a')}
-                                                            to={`/courses/${course.nameCourse}/${subject.nameSubject}`}
+                                                            to={`/KnowledgeGameReactJS/courses/${course.nameCourse}/${subject.nameSubject}`}
                                                         >
                                                             {subject.nameSubject}
                                                         </Link>

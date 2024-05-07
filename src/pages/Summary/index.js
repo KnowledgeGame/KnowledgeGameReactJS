@@ -36,12 +36,14 @@ function Summary() {
                         <div className={cx('wrap-button', 'bg-warning')}>
                             <FontAwesomeIcon icon={faAnglesLeft} className={cx('icon-next-question', 'pr-2')} />
                             <span>
-                                <Link to="/">Quay lại</Link>
+                                <Link to="/KnowledgeGameReactJS/">Quay lại</Link>
                             </span>
                         </div>
                         <div className={cx('wrap-button')}>
                             <span>
-                                <Link to={`/courses/${course}/${subject}/TracNghiem`}>Làm tiếp</Link>
+                                <Link to={`/KnowledgeGameReactJS/courses/${course}/${subject}/TracNghiem`}>
+                                    Làm tiếp
+                                </Link>
                             </span>
                             <FontAwesomeIcon icon={faAnglesRight} className={cx('icon-next-question', 'pl-2')} />
                         </div>

@@ -50,7 +50,7 @@ function Sidebar() {
                                         { active: nav.isActive },
                                     )
                                 }
-                                to={`/courses/${nameCourse}/${subject.nameSubject}`}
+                                to={`/KnowledgeGameReactJS/courses/${nameCourse}/${subject.nameSubject}`}
                             >
                                 <span className={cx('span-sidebar')}>{subject.nameSubject}</span>
                                 <FontAwesomeIcon icon={faChevronRight} />

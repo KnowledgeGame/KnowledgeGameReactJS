@@ -46,7 +46,11 @@ function Home() {
                 </div>
 
                 {subject.map((subject) => (
-                    <Link to={`/courses/${objCourse[subject.nameSubject]}/${subject.nameSubject}/TracNghiem`}>
+                    <Link
+                        to={`/KnowledgeGameReactJS/courses/${objCourse[subject.nameSubject]}/${
+                            subject.nameSubject
+                        }/TracNghiem`}
+                    >
                         <div key={subject.idSubject} className={cx('list-subject')}>
                             <div className={cx('image')}>
                                 <img src={objSubject[subject.nameSubject]} alt="Illustration" />

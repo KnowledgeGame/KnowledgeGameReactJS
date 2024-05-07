@@ -40,7 +40,7 @@ function LyThuyet() {
                     <div>
                         <Link
                             className={cx('link-bai-tap')}
-                            to={`/courses/${course}/${subject}/TracNghiem/${idCS}/${bai}`}
+                            to={`/KnowledgeGameReactJS/courses/${course}/${subject}/TracNghiem/${idCS}/${bai}`}
                         >
                             Bài tập vận dụng
                         </Link>
@@ -59,7 +59,7 @@ function LyThuyet() {
                     <div>
                         <Link
                             className={cx('link-bai-tap-end')}
-                            to={`/courses/${course}/${subject}/TracNghiem/${idCS}/${bai}`}
+                            to={`/KnowledgeGameReactJS/courses/${course}/${subject}/TracNghiem/${idCS}/${bai}`}
                         >
                             Bài tập vận dụng
                             <FontAwesomeIcon className={cx('icon-link-bai-tap')} icon={faAnglesRight} />

@@ -134,11 +134,11 @@ function Login() {
                 <div className={cx('text-center', 'container-hotline')}>
                     <div>
                         <span>Chưa có tài khoản?</span>
-                        <Link to="/register">Đăng ký</Link>
+                        <Link to="/KnowledgeGameReactJS/register">Đăng ký</Link>
                     </div>
                     <div>
                         <span>Hotline hỗ trợ: </span>
-                        <a href="/">0836759850</a>
+                        <a href="/KnowledgeGameReactJS/">0836759850</a>
                     </div>
                 </div>
             </div>

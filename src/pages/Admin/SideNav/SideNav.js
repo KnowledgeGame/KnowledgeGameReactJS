@@ -38,7 +38,7 @@ function SideNav() {
             {/* Main Sidebar Container */}
             <aside className={cx('main-sidebar', ' sidebar-dark-primary ', 'elevation-4', 'wrap-side-nav')}>
                 {/* Brand Logo */}
-                <Link to="/admin/home" className="brand-link">
+                <Link to="/KnowledgeGameReactJS/admin/home" className="brand-link">
                     <img
                         src={images.logo}
                         alt="AdminLTE Logo"
@@ -93,7 +93,7 @@ function SideNav() {
            with font-awesome or any other icon font library */}
 
                             <li class="nav-item">
-                                <Link to="/admin/subjects" class="nav-link active">
+                                <Link to="/KnowledgeGameReactJS/admin/subjects" class="nav-link active">
                                     <div className="row">
                                         <div className="col-4 d-flex justify-content-center align-items-center">
                                             <FontAwesomeIcon icon={faBookOpenReader} />
@@ -170,7 +170,7 @@ function SideNav() {
                                 {stateTheorys && (
                                     <ul class="nav nav-treeview">
                                         <li class="nav-item">
-                                            <Link to="/admin/titleContents" class="nav-link">
+                                            <Link to="/KnowledgeGameReactJS/admin/titleContents" class="nav-link">
                                                 <div className="row">
                                                     <div className="col-4 d-flex justify-content-center align-items-center">
                                                         <FontAwesomeIcon icon={faCircle} className="nav-icon" />
@@ -183,7 +183,7 @@ function SideNav() {
                                             </Link>
                                         </li>
                                         <li class="nav-item">
-                                            <Link to="/admin/contentSubjects" class="nav-link">
+                                            <Link to="/KnowledgeGameReactJS/admin/contentSubjects" class="nav-link">
                                                 <div className="row">
                                                     <div className="col-4 d-flex justify-content-center align-items-center">
                                                         <FontAwesomeIcon icon={faCircle} className="nav-icon" />
@@ -200,7 +200,7 @@ function SideNav() {
                             </li>
 
                             <li class="nav-item">
-                                <Link to="/admin/questions" class="nav-link active">
+                                <Link to="/KnowledgeGameReactJS/admin/questions" class="nav-link active">
                                     <div className="row">
                                         <div className="col-4 d-flex justify-content-center align-items-center">
                                             <FontAwesomeIcon icon={faReceipt} />
@@ -219,7 +219,7 @@ function SideNav() {
                             {position && position === 'Admin' && (
                                 <>
                                     <li class="nav-item">
-                                        <Link to="/admin/courses" class="nav-link active">
+                                        <Link to="/KnowledgeGameReactJS/admin/courses" class="nav-link active">
                                             <div className="row">
                                                 <div className="col-4 d-flex justify-content-center align-items-center">
                                                     <FontAwesomeIcon icon={faBook} />
@@ -253,7 +253,10 @@ function SideNav() {
                                         {stateAccounts && (
                                             <ul className="nav nav-treeview">
                                                 <li className="nav-item">
-                                                    <Link to="/admin/students" className="nav-link">
+                                                    <Link
+                                                        to="/KnowledgeGameReactJS/admin/students"
+                                                        className="nav-link"
+                                                    >
                                                         <div className="row">
                                                             <div className="col-4 d-flex justify-content-center align-items-center">
                                                                 <FontAwesomeIcon icon={faCircle} className="nav-icon" />
@@ -266,7 +269,10 @@ function SideNav() {
                                                     </Link>
                                                 </li>
                                                 <li className="nav-item">
-                                                    <Link to="/admin/teachers" className="nav-link">
+                                                    <Link
+                                                        to="/KnowledgeGameReactJS/admin/teachers"
+                                                        className="nav-link"
+                                                    >
                                                         <div className="row">
                                                             <div className="col-4 d-flex justify-content-center align-items-center">
                                                                 <FontAwesomeIcon icon={faCircle} className="nav-icon" />
@@ -301,7 +307,10 @@ function SideNav() {
                                         {stateTransactions && (
                                             <ul className="nav nav-treeview">
                                                 <li className="nav-item">
-                                                    <Link to="/admin/transactionStudents" className="nav-link">
+                                                    <Link
+                                                        to="/KnowledgeGameReactJS/admin/transactionStudents"
+                                                        className="nav-link"
+                                                    >
                                                         <div className="row">
                                                             <div className="col-4 d-flex justify-content-center align-items-center">
                                                                 <FontAwesomeIcon icon={faCircle} className="nav-icon" />
@@ -314,7 +323,10 @@ function SideNav() {
                                                     </Link>
                                                 </li>
                                                 <li className="nav-item">
-                                                    <Link to="/admin/transactionTeachers" className="nav-link">
+                                                    <Link
+                                                        to="/KnowledgeGameReactJS/admin/transactionTeachers"
+                                                        className="nav-link"
+                                                    >
                                                         <div className="row">
                                                             <div className="col-4 d-flex justify-content-center align-items-center">
                                                                 <FontAwesomeIcon icon={faCircle} className="nav-icon" />
@@ -330,7 +342,7 @@ function SideNav() {
                                         )}
                                     </li>
                                     <li className="nav-item menu-open">
-                                        <Link to="/admin/statistics" className="nav-link active">
+                                        <Link to="/KnowledgeGameReactJS/admin/statistics" className="nav-link active">
                                             <div className="row">
                                                 <div className="col-4 d-flex justify-content-center align-items-center">
                                                     <FontAwesomeIcon icon={faChartSimple} />

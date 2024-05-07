@@ -135,7 +135,7 @@ function Code() {
                             <span>Ngày kết thúc: 31/05/2023</span>
                             <span className={cx('initial-price')}>190,000 đ</span>
                             <span className={cx('price-after-discount')}>150,000 đ</span>
-                            <Link to="/code/Momo">Buy now</Link>
+                            <Link to={code.payUrl}>Buy now</Link>
                         </div>
                         <div
                             className={cx(
@@ -149,7 +149,7 @@ function Code() {
                             <span>Ngày kết thúc: 31/05/2023</span>
                             <span className={cx('initial-price')}>1,000,000 đ</span>
                             <span className={cx('price-after-discount')}>900,000 đ</span>
-                            <Link to="/code/Momo">Buy now</Link>
+                            <Link to={code.payUrl}>Buy now</Link>
                         </div>
                     </div>
                 </>

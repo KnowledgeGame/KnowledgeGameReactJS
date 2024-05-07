@@ -33,6 +33,7 @@ function App() {
                                     ? Fragment
                                     : HeaderAndFooter;
                             const Page = route.component;
+
                             return (
                                 <Route
                                     key={index}

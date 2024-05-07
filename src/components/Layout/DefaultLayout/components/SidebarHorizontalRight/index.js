@@ -84,7 +84,7 @@ function SidebarHorizontalRight() {
                                                     <div className={cx('d-none')}>{(totalContent += 1)}</div>
                                                     <NavLink
                                                         className={cx('abc')}
-                                                        to={`/courses/${course}/${subject}/LyThuyet/${content_subject.idContentSubject}/${totalContent}`}
+                                                        to={`/KnowledgeGameReactJS/courses/${course}/${subject}/LyThuyet/${content_subject.idContentSubject}/${totalContent}`}
                                                         alt="..."
                                                     >
                                                         {totalContent}. {content_subject.nameContent}

@@ -128,7 +128,9 @@ function DoExercise() {
     };
     const handleEndQuestion = () => {
         sendPoint();
-        navigate(`/courses/${course}/${subject}/summary/${point}/${formatTime}/${totalQuestionsDone}`);
+        navigate(
+            `/KnowledgeGameReactJS/courses/${course}/${subject}/summary/${point}/${formatTime}/${totalQuestionsDone}`,
+        );
     };
 
     // -----------------------------------------------------------------------------------------
@@ -306,7 +308,7 @@ function DoExercise() {
                                                     ) : (
                                                         <span>
                                                             <Link
-                                                                to={`/courses/${course}/${subject}/LyThuyet/${idCS}/${bai}`}
+                                                                to={`/KnowledgeGameReactJS/courses/${course}/${subject}/LyThuyet/${idCS}/${bai}`}
                                                             >
                                                                 Xem lại lý thuyết
                                                             </Link>

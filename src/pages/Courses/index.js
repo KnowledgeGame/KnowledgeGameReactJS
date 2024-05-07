@@ -35,7 +35,7 @@ function ContentCourse() {
                                     'd-flex flex-column align-items-center justify-content-center text-center',
                                     'a-course',
                                 )}
-                                to={`/courses/${course}/${subject}/TracNghiem`}
+                                to={`/KnowledgeGameReactJS/courses/${course}/${subject}/TracNghiem`}
                             >
                                 <img src={images.tracNghiem} alt="Trắc nghiệm" />
                                 <span className={cx('text-dark', 'span-course')}>Luyện bài tập trắc nghiệm</span>
@@ -51,7 +51,7 @@ function ContentCourse() {
                                     'd-flex flex-column align-items-center justify-content-center text-center',
                                     'a-course',
                                 )}
-                                to={`/courses/${course}/${subject}/MenuLyThuyet`}
+                                to={`/KnowledgeGameReactJS/courses/${course}/${subject}/MenuLyThuyet`}
                             >
                                 <img src={images.lyThuyet} alt="Lý thuyết" />
                                 <span className={cx('text-dark', 'span-course')}>Ôn lý thuyết</span>

@@ -59,7 +59,7 @@ function SidebarHorizontal() {
                                 active: nav.isActive,
                             })
                         }
-                        to={`/courses/${course.length > 0 ? course[0].nameCourse : ''}/${
+                        to={`/KnowledgeGameReactJS/courses/${course.length > 0 ? course[0].nameCourse : ''}/${
                             subjectItem.nameSubject
                         }/${type}`}
                     >

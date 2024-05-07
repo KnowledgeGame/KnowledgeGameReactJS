@@ -179,7 +179,7 @@ function Exercise() {
                     <div>
                         <Link
                             className={cx('link-bai-tap-end')}
-                            to={`/courses/${course}/${subject}/LamBaiTap/${idCS}/${bai}`}
+                            to={`/KnowledgeGameReactJS/courses/${course}/${subject}/LamBaiTap/${idCS}/${bai}`}
                         >
                             Bắt đầu
                             <FontAwesomeIcon className={cx('icon-link-bai-tap')} icon={faAnglesRight} />

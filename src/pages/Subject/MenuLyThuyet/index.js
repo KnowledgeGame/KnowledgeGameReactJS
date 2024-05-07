@@ -53,7 +53,7 @@ function TracNghiem() {
                                                 ((totalContent += 1),
                                                 (
                                                     <Link
-                                                        to={`/courses/${course}/${subject}/LyThuyet/${content_subject.idContentSubject}/${totalContent}`}
+                                                        to={`/KnowledgeGameReactJS/courses/${course}/${subject}/LyThuyet/${content_subject.idContentSubject}/${totalContent}`}
                                                         className={cx('title-trac-nghiem-a')}
                                                     >
                                                         {totalContent}. {content_subject.nameContent}
