@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/KnowledgeGameReactJS/static/css/main.f60b1e09.css",
-    "main.js": "/KnowledgeGameReactJS/static/js/main.527a001b.js",
-    "static/js/465.417e3efa.chunk.js": "/KnowledgeGameReactJS/static/js/465.417e3efa.chunk.js",
+    "main.css": "/KnowledgeGameReactJS/static/css/main.859f030a.css",
+    "main.js": "/KnowledgeGameReactJS/static/js/main.ba95e597.js",
     "static/js/511.a1bb758b.chunk.js": "/KnowledgeGameReactJS/static/js/511.a1bb758b.chunk.js",
     "static/media/icon_emoticon3.gif": "/KnowledgeGameReactJS/static/media/icon_emoticon3.7368bdc108982a3243d4.gif",
     "static/media/icon_emoticon1.gif": "/KnowledgeGameReactJS/static/media/icon_emoticon1.893d5ea5f3acf8b27c0e.gif",
@@ -21,13 +20,12 @@
     "static/media/logoCSS.png": "/KnowledgeGameReactJS/static/media/logoCSS.52a4eb4b9bed78edb97a.png",
     "static/media/icon_emoticon_content1.png": "/KnowledgeGameReactJS/static/media/icon_emoticon_content1.4356b871b18071fe5904.png",
     "index.html": "/KnowledgeGameReactJS/index.html",
-    "main.f60b1e09.css.map": "/KnowledgeGameReactJS/static/css/main.f60b1e09.css.map",
-    "main.527a001b.js.map": "/KnowledgeGameReactJS/static/js/main.527a001b.js.map",
-    "465.417e3efa.chunk.js.map": "/KnowledgeGameReactJS/static/js/465.417e3efa.chunk.js.map",
+    "main.859f030a.css.map": "/KnowledgeGameReactJS/static/css/main.859f030a.css.map",
+    "main.ba95e597.js.map": "/KnowledgeGameReactJS/static/js/main.ba95e597.js.map",
     "511.a1bb758b.chunk.js.map": "/KnowledgeGameReactJS/static/js/511.a1bb758b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f60b1e09.css",
-    "static/js/main.527a001b.js"
+    "static/css/main.859f030a.css",
+    "static/js/main.ba95e597.js"
   ]
 }
