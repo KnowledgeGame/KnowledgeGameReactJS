@@ -99,7 +99,7 @@ function Titles() {
                             <div className="col-sm-6">
                                 <ol className="breadcrumb float-sm-right">
                                     <li className="breadcrumb-item">
-                                        <a href="#">Home</a>
+                                        <a href="abc">Home</a>
                                     </li>
                                     <li className="breadcrumb-item active">DataTables</li>
                                 </ol>
@@ -219,7 +219,7 @@ function Titles() {
                                             )}
 
                                         {/* Form */}
-                                        {stateAddForm != 0 && (
+                                        {stateAddForm !== 0 && (
                                             <div className={cx('wrap', { 'display-none': stateAddForm === 0 })}>
                                                 <div className={cx('wrap-update')}>
                                                     <div className="d-flex justify-content-end w-100">
@@ -259,27 +259,27 @@ function Titles() {
                                         <nav aria-label="Page navigation example">
                                             <ul className="pagination pt-2">
                                                 <li className="page-item">
-                                                    <a className="page-link" href="#">
+                                                    <a className="page-link" href="abc">
                                                         Previous
                                                     </a>
                                                 </li>
                                                 <li className="page-item">
-                                                    <a className="page-link" href="#">
+                                                    <a className="page-link" href="abc">
                                                         1
                                                     </a>
                                                 </li>
                                                 <li className="page-item">
-                                                    <a className="page-link" href="#">
+                                                    <a className="page-link" href="abc">
                                                         2
                                                     </a>
                                                 </li>
                                                 <li className="page-item">
-                                                    <a className="page-link" href="#">
+                                                    <a className="page-link" href="abc">
                                                         3
                                                     </a>
                                                 </li>
                                                 <li className="page-item">
-                                                    <a className="page-link" href="#">
+                                                    <a className="page-link" href="abc">
                                                         Next
                                                     </a>
                                                 </li>

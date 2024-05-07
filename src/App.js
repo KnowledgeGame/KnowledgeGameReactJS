@@ -19,7 +19,6 @@ function App() {
             <Router>
                 <div className="App" color="--primary">
                     <Routes>
-                        {console.log(position)}
                         {publicRoutes.map((route, index) => {
                             const Layout =
                                 route.layout === 'VerticalSidebar'

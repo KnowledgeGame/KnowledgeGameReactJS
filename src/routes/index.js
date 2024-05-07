@@ -60,9 +60,9 @@ function SubjectPage() {
 //     )} />
 //   );
 
-const isAuthenticated = () => {
-    // Kiểm tra xem người dùng đã đăng nhập chưa
-    // Trả về true nếu đã đăng nhập, ngược lại trả về false
-};
+// const isAuthenticated = () => {
+// Kiểm tra xem người dùng đã đăng nhập chưa
+// Trả về true nếu đã đăng nhập, ngược lại trả về false
+// };
 const privateRoutes = [{ path: '/admin/:option', component: AdminPage, layout: 'Admin' }];
 export { publicRoutes, privateRoutes };

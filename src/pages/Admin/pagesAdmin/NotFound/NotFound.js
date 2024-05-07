@@ -1,9 +1,5 @@
 import React from 'react';
-import classNames from 'classnames/bind';
-import style from './NotFound.module.scss';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-const cx = classNames.bind(style);
 function Courses() {
     return (
         <div className="content-wrapper">
@@ -17,7 +13,7 @@ function Courses() {
                         <div className="col-sm-6">
                             <ol className="breadcrumb float-sm-right">
                                 <li className="breadcrumb-item">
-                                    <a href="#">Home</a>
+                                    <a href="abc">Home</a>
                                 </li>
                                 <li className="breadcrumb-item active">404 Error Page</li>
                             </ol>

@@ -9,12 +9,12 @@ const cx = classNames.bind(style);
 function Login() {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
-    const [account, setAccount] = useState('');
+
     const [checkAdmin, setCheckAdmin] = useState(-1);
     const [state, setState] = useState(-1);
 
     const navigate = useNavigate();
-    const { setUser, setPosition, position } = useContext(AuthContext);
+    const { setUser, setPosition } = useContext(AuthContext);
     const handleLogin = async () => {
         try {
             const response = await axios.post('https://k4knowledgegame.pythonanywhere.com/api/checkAccount/', {
@@ -22,7 +22,7 @@ function Login() {
                 password: password,
                 position: checkAdmin,
             });
-            setAccount(response.data);
+
             setUser(response.data);
             setPosition(response.data.position);
             setState(1);

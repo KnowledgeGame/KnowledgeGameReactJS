@@ -99,7 +99,7 @@ function Contents() {
                             <div className="col-sm-6">
                                 <ol className="breadcrumb float-sm-right">
                                     <li className="breadcrumb-item">
-                                        <a href="#">Home</a>
+                                        <a href="abc">Home</a>
                                     </li>
                                     <li className="breadcrumb-item active">DataTables</li>
                                 </ol>
@@ -310,27 +310,27 @@ function Contents() {
                                         <nav aria-label="Page navigation example">
                                             <ul className="pagination pt-2">
                                                 <li className="page-item">
-                                                    <a className="page-link" href="#">
+                                                    <a className="page-link" href="abc">
                                                         Previous
                                                     </a>
                                                 </li>
                                                 <li className="page-item">
-                                                    <a className="page-link" href="#">
+                                                    <a className="page-link" href="abc">
                                                         1
                                                     </a>
                                                 </li>
                                                 <li className="page-item">
-                                                    <a className="page-link" href="#">
+                                                    <a className="page-link" href="abc">
                                                         2
                                                     </a>
                                                 </li>
                                                 <li className="page-item">
-                                                    <a className="page-link" href="#">
+                                                    <a className="page-link" href="abc">
                                                         3
                                                     </a>
                                                 </li>
                                                 <li className="page-item">
-                                                    <a className="page-link" href="#">
+                                                    <a className="page-link" href="abc">
                                                         Next
                                                     </a>
                                                 </li>

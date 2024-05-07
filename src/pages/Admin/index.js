@@ -1,4 +1,3 @@
-import React, { useContext } from 'react';
 import Header from './Header/Header';
 import { useParams } from 'react-router-dom';
 import {
@@ -16,13 +15,12 @@ import {
     NotFound,
 } from './pagesAdmin/Pages';
 import SideNav from './SideNav/SideNav';
-import { AuthContext } from '~/context/authcontext';
 
 function AdminPage() {
     var { option } = useParams();
 
     const position = sessionStorage.getItem('position');
-   
+
     return (
         <div>
             <Header />

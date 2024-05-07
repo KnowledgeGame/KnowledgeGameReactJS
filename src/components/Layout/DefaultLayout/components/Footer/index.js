@@ -3,7 +3,7 @@ import style from './Footer.module.scss';
 import image from '~/assets/images';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCaretRight, faEnvelope, faLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons';
-import Mapbox from '~/assets/map/mapbox';
+// import Mapbox from '~/assets/map/mapbox';
 const cx = classNames.bind(style);
 
 function Footer() {
@@ -51,9 +51,7 @@ function Footer() {
                     <p>
                         <FontAwesomeIcon icon={faLocationDot} /> Yên Ngưu - Tam Hiệp - H.Thanh Trì - Hà Nội
                     </p>
-                    <div className={cx('footer-wrapper-map')}>
-                        <Mapbox />
-                    </div>
+                    <div className={cx('footer-wrapper-map')}>{/* <Mapbox /> */}</div>
                 </div>
             </div>
         </footer>

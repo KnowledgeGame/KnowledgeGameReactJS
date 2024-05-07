@@ -19,8 +19,8 @@ function Statistics() {
     }, []);
     // console.log(statistics.statistics);
 
-    var month = [0, 0, 0, 0];
-    var price_month = [0, 0, 0, 0];
+    // var month = [0, 0, 0, 0];
+    // var price_month = [0, 0, 0, 0];
     var year = [];
     var price_year = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
@@ -34,10 +34,12 @@ function Statistics() {
         year = [...new Set(year)];
     };
     if (statistics.statistics) {
+        // eslint-disable-next-line array-callback-return
         statistics.statistics.filter((value, index) => {
             let nam = value.time.split('-')[0];
             handleYear(nam);
 
+            // eslint-disable-next-line array-callback-return
             year.filter((value) => {
                 if (value === nam) {
                 }

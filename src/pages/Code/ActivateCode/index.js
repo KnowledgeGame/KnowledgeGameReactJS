@@ -21,13 +21,13 @@ function Code() {
 
     useEffect(() => {
         axios
-            .get('http://127.0.0.1:8000/api/Momo/')
+            .get('https://k4knowledgegame.pythonanywhere.com/api/Momo/')
             .then((res) => {
                 setCode(res.data);
             })
             .catch(() => {});
     }, []);
-
+    console.log(code);
     useEffect(() => {
         axios
             .get('https://k4knowledgegame.pythonanywhere.com/api/statisticStudents/')
