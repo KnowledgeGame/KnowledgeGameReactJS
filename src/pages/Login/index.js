@@ -31,10 +31,10 @@ function Login() {
             sessionStorage.setItem('position', response.data.position);
 
             if (response.data && response.data.position === 'Student') {
-                navigate('/');
+                navigate('/KnowledgeGameReactJS/');
             }
             if (response.data && (response.data.position === 'Teacher' || response.data.position === 'Admin')) {
-                navigate('/admin/home');
+                navigate('/KnowledgeGameReactJS/admin/home');
             }
         } catch (error) {
             setState(0);

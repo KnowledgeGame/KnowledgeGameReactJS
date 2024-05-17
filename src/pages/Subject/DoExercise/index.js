@@ -157,7 +157,7 @@ function DoExercise() {
                         <div>
                             <img src={imgNow} alt="iconEmoticon2" />
                             <img
-                                className={cx('EmoticonContent')}
+                                className={cx('EmoticonContent2')}
                                 src={image.iconEmoticonContent2}
                                 alt="iconEmoticonContent1"
                             />

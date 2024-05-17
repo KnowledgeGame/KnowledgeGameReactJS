@@ -115,7 +115,7 @@ function Header() {
                         ) : (
                             <div className={cx('dang-nhap')}>
                                 <FontAwesomeIcon icon={faUser} />
-                                <Link className={cx('header-not-login-a')} to="/login">
+                                <Link className={cx('header-not-login-a')} to="/KnowledgeGameReactJS/login">
                                     Đăng nhập
                                 </Link>
                             </div>
